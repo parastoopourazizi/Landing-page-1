@@ -1,0 +1,73 @@
+@import url(http://awebfont.ir/css?id=1116);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "B Yekan", tahoma, Arial;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  height: 55px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.header-right {
+  display: flex;
+}
+.menu-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.menu-item {
+  padding: 10px 20px;
+  color: #999;
+}
+.header-left {
+  display: flex;
+}
+.header-left p {
+  padding: 5px 20px;
+  color: #288ed9;
+}
+
+.header-left .header-login {
+  background-color: #288ed9;
+  color: #fff;
+  border-radius: 30px;
+}
+.header-bottom {
+  display: flex;
+  align-items: center;
+}
+.title {
+  margin: 50px 0 10px;
+  color: #288ed9;
+}
+.info {
+  color: #7e7e7e;
+  line-height: 28px;
+  text-align: justify;
+}
+.header-bottom-right {
+  width: 40%;
+}
+.header-bottom-left {
+  width: 60%;
+  padding-right: 50px;
+}
+
+.size-img {
+  width: 550px;
+  height: 550px;
+}

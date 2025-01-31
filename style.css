@@ -13,15 +13,17 @@ body {
   margin-right: auto;
   width: 1200px;
   height: 55px;
+  flex-wrap: wrap;
 }
 
 .header-top {
   display: flex;
   justify-content: space-between;
-  background: #ededed;
+  background: #ececec;
   align-items: center;
   padding: 20px 0;
   border-radius: 10px;
+  margin-top: 15px;
 }
 .header-right {
   display: flex;
@@ -53,7 +55,9 @@ body {
   display: flex;
   align-items: center;
   margin-top: 30px;
+  flex-wrap: wrap;
 }
+
 .title {
   margin: 50px 0 10px;
   color: #288ed9;
@@ -74,4 +78,9 @@ body {
 .size-img {
   width: 550px;
   height: 550px;
+}
+@media (max-width: 768px) {
+  .header-bottom {
+    width: 100%;
+  }
 }

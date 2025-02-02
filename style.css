@@ -79,6 +79,39 @@ body {
   width: 550px;
   height: 550px;
 }
+.section-three {
+  background: #e8eced;
+}
+.section-three-title {
+  text-align: center;
+  padding-top: 20px;
+}
+.section-three-list {
+  display: flex;
+  padding: 100px 0;
+}
+.section-three-item {
+  margin: 0 15px;
+  padding: 40px 15px 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  text-align: justify;
+  color: #5e5e5e;
+  position: relative;
+}
+.section-three-item-title {
+  width: 150px;
+  position: absolute;
+  background-color: #288ed9;
+  color: #fff;
+  top: -14px;
+  padding: 7px;
+  text-align: center;
+  margin: auto;
+  right: 0;
+  left: 0;
+  border-radius: 25px;
+}
 @media (max-width: 768px) {
   .header-bottom {
     width: 100%;

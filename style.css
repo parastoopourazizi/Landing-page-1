@@ -112,27 +112,98 @@ body {
   left: 0;
   border-radius: 25px;
 }
-.section-four {
+.container-four {
   display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 50px 20px;
+  height: 60vh;
+  padding: 10px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
-.four-title {
-  color: #288ed9;
-  margin: 50px 0 10px;
+.section-four {
+  background: #fff;
+  max-width: 700px;
+  width: 100%;
+  padding: 25px 30px;
+  border-radius: 5px;
 }
-.four-info {
-  color: #7e7e7e;
-  text-align: justify;
-  line-height: 27px;
+.title-four {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
 }
-.section-four-right {
-  width: 50%;
+.title-four ::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
-.section-four-left {
-  width: 50%;
-  padding: 10px 20px;
+.user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 9px;
 }
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+.user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-right: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box .details {
+  display: block;
+  font-weight: 15px;
+  margin-bottom: 5px;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+  border-color: #9b59b6;
+}
+form .button {
+  height: 45px;
+  margin: 45px 0;
+}
+form .button input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.form .button input:hover {
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+@media (max-width: 584px) {
+  .section-four {
+    max-width: 100%;
+  }
+  form .user-details .input-box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .user-details {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+}
+
 @media (max-width: 768px) {
   .header-bottom {
     width: 100%;
